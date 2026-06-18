@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+.env
+.venv/
+venv/
+
+.dlt/
+.streamlit/secrets.toml
+
+target/
+dbt_packages/
+logs/
+
+*.duckdb
+*.db
+
+# Local course reference material, not part of the submitted code repo.
+Project/
+theory-material/
