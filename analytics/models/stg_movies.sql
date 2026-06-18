@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 with source_movies as (
     select * from {{ source('raw', 'movies') }}
 ),

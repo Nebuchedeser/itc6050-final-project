@@ -14,8 +14,4 @@ clean-targets:
 
 models:
   movie_analytics:
-    staging:
-      +materialized: view
-    marts:
-      +materialized: table
-
+    +materialized: view
